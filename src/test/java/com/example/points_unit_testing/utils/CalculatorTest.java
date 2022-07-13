@@ -1,12 +1,10 @@
 package com.example.points_unit_testing.utils;
 
-import com.example.points_unit_testing.utils.Calculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
-import org.springframework.http.HttpStatus;
-import org.springframework.web.server.ResponseStatusException;
+
 
 public class CalculatorTest {
 
@@ -108,5 +106,8 @@ public class CalculatorTest {
 //            Assertions.assertEquals(expectedStatus, exception.getStatus());
 //        }
     }
+
+
+
 
 }

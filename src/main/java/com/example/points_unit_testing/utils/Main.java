@@ -57,12 +57,14 @@ public class Main {
             throw new IllegalArgumentException("Points cannot be null");
         }
 
-        if (points.isEmpty()) {
-            return new ArrayList<>();
-        }
-
         if (results <= 0) {
             throw new IllegalArgumentException("Results cannot be negative or zero");
+        }
+
+        // normal values
+
+        if (points.isEmpty()) {
+            return new ArrayList<>();
         }
 
 
